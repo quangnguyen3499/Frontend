@@ -1,0 +1,36 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-duration: 5s;
+    animation-name: abc;
+}
+
+@keyframes abc {
+    from {
+        background-color: aliceblue
+    }
+    25% {
+        background-color: lightblue
+    }
+    50% {
+        background-color: lightseagreen
+    }
+    to {
+        background-color: lime
+    }
+}
+
+svg {
+    animation-duration: 2s;
+    animation: xyz 2s infinite;
+}
+
+@keyframes xyz {
+    from {
+        margin: 100px;
+    }
+    to {
+        margin: 200px;
+    }
+}

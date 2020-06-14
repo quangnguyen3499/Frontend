@@ -1,0 +1,39 @@
+.nut {
+    width: 100px;
+    text-decoration: none;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 15px;
+    background-image: -webkit-linear-gradient(left, #ffcd4a, #f15b26);
+    border-radius: 40px;
+    padding: 2px 15px 2px 15px;
+    ;
+    display: block;
+}
+
+.nut:hover {
+    background: green;
+}
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: segoe ui light;
+    color: #414141;
+    padding: 20px;
+}
+
+.menu ul li a:after {
+    content: '/';
+    padding-left: 20px;
+}

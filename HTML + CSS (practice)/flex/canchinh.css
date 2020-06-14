@@ -1,0 +1,21 @@
+.khung {
+    background-image: url(https://media.vietravel.net/Images/NewsPicture/The_Wave_Coyote_Buttes_Arizona1_resize.jpg);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    /*cách 1*/
+    text-align: center;
+    color: white;
+    font-family: segoe ui light;
+    font-size: 30px;
+    /*cách 2*/
+    justify-content: center;
+    align-items: center;
+    /*align-items: center (chữ luôn nằm giữa khung bất kể kích thước*/
+}
+
+.khung .noidung {
+    background-color: black;
+    padding: 30px;
+    width: 100px;
+}

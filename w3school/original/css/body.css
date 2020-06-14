@@ -1,0 +1,107 @@
+#body {
+    margin: 0;
+    display: flex;
+}
+
+.list_contents {
+    width: 17%;
+    float: left;
+    box-shadow: 3px 3px 3px 3px rgba(75, 74, 74, 0.2);
+}
+
+.list_contents ul {
+    list-style: none;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.list_contents ul li {
+    letter-spacing: 1.3px;
+}
+
+.list_contents ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.list_contents ul li a:hover {
+    background-color: rgb(189, 187, 187);
+}
+
+.content {
+    width: 83%;
+    float: left;
+}
+
+.content .html,
+.content .css,
+.content .javascript,
+.content .sql,
+.content .review_4,
+.content .review_3,
+.content .ex,
+.content .template,
+.content .section,
+.content .certificate {
+    text-align: center;
+    display: flex;
+}
+
+.title {
+    width: 50%;
+    float: left;
+    line-height: 1.2;
+    margin: 40px;
+}
+
+.title a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #616161;
+    font-size: 16px;
+    padding: 10px 16px;
+    margin: 5px;
+    font-family: Verdana, sans-serif;
+    line-height: 3;
+}
+
+.demo {
+    width: 50%;
+    float: left;
+    background-color: #f1f1f1;
+    margin: 30px;
+    padding: 20px;
+    text-align: left;
+    line-height: 1;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.demo .detail {
+    border-color: #4CAF50;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    font-family: Consolas, "courier new";
+}
+
+.demo .btn {
+    background-color: #4CAF50;
+    margin: 5px 5px 10px 0;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content .css,
+.content .sql {
+    background-color: #f1f1f1;
+}

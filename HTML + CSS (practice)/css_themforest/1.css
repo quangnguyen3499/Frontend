@@ -1,0 +1,60 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    display: inline;
+}
+
+.menu {
+    font-family: segoe ui light;
+    font-size: 17px;
+    background: url(background.jpg);
+    height: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    width: 300px;
+    padding-left: 118px;
+    padding-top: 140px;
+    transform: rotate(30deg);
+}
+
+.menu ul li {
+    padding-bottom: 5px;
+    transition: 0.4s;
+    margin: 7px;
+}
+
+.o1,
+.o2 {
+    padding-left: 108px;
+    padding-top: 150px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li .icon {
+    display: inline;
+    color: rgb(155, 161, 161);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.menu ul li .chu {
+    display: inline;
+}
+
+.menu ul li:hover .icon {
+    opacity: 1;
+}
+
+.menu ul li:hover {
+    margin-left: 20px;
+}

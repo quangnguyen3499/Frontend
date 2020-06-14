@@ -1,0 +1,16 @@
+:root {
+    --mauvang: yellow;
+    --maunen: gray;
+    --text_size1: 15px;
+}
+
+body {
+    background-color: var(--mauvang);
+}
+
+h2 {
+    font-size: var(--text_size1);
+}
+
+
+/* nơi khai báo biến */

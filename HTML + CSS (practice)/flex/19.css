@@ -1,0 +1,44 @@
+                .cot_nho {
+                    display: flex;
+                    width: 400px;
+                    text-decoration: none;
+                    justify-content: space-between;
+                    font-family: segoe ui light;
+                    margin-left: 900px;
+                }
+                
+                .cot_nho .left {
+                    width: 200px;
+                }
+                
+                .cot_nho .right {
+                    width: 150px;
+                }
+                
+                img {
+                    width: 100%;
+                }
+                
+                .cot_nho .right a.a1 {
+                    text-decoration: none;
+                    display: block;
+                    color: blue;
+                }
+                
+                .cot_nho .right span.time {
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 20px;
+                }
+                
+                .cot_nho .right a.a2 {
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 20px;
+                }
+                
+                .cot_nho .right a.a3 {
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 20px;
+                }
