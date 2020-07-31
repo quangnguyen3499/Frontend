@@ -133,3 +133,33 @@
     font-size: 36px;
     margin: 30px;
 }
+
+@media only screen and (max-width:1000px) and (min-width: 770px) {
+    .col-md-12 .col-md-6 {
+        width: 70%;
+    }
+    .col-md-10 {
+        width: 70%;
+    }
+    .col-md-2 {
+        width: 20%;
+    }
+    .row {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:770px) and (min-width: 60px) {
+    .col-md-12 s {
+        width: 70%;
+    }
+    .col-md-10 {
+        width: 70%;
+    }
+    .col-md-2 {
+        width: 20%;
+    }
+    .row {
+        text-align: center;
+    }
+}
