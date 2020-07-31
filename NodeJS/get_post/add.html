@@ -1,0 +1,25 @@
+<span>Add</span>
+<input type="text" id="add">
+<script>
+    function getAxios(url) {
+        axios.get(url).then(function(res) {
+                console.log(res);
+            })
+            .catch(function(err) {
+                console.log(err)
+            });
+    }
+
+    function postAxios(url) {
+        axios.post(url, {
+                "id": 4,
+                "content": "go wc"
+            })
+            .then(function(res) {
+                console.log(res)
+            })
+            .catch(function(err) {
+                console.log(err)
+            });
+    }
+</script>

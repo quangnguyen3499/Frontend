@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="new">
+    <button id="add">Add</button>
+    <button id="edit">Edit</button>
+    <ul id="todo-list">
+    </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script type="text/javascript">
+        var url = "http://localhost:9080/todos";
+        var axios = require('axios');
+        var storageKey = 'todoList';
+        var todoList = JSON.parse(localStorage.getItem(storageKey));
+        axios.get(url).then(function(res) {
+            var items = res.data;
+            render(items);
+        });
+        var add = document.getElementById('add');
+        add.addEventListener('add', addItem);
+
+        function addItem() {
+            var input = document.getElementById('new');
+            var newItem = input.value;
+            todoList.push(newItem);
+            axios.post(url, newItem).then(function() {
+                console.log("Item saved", newItem);
+            })
+        };
+
+        function render() {
+            var htmlList = document.getElementById('todo-list');
+            var content = items.map(function(item) {
+                return "<li>" + item.content + "</li>";
+            })
+            htmlList.innerHTML = content.join('');
+        }
+    </script>
+</body>
+
+</html>

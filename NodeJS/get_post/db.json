@@ -1,0 +1,15 @@
+{
+    "todos": [{
+            "id": 1,
+            "content": "go to school"
+        },
+        {
+            "id": 2,
+            "content": "go to English class"
+        },
+        {
+            "id": 3,
+            "content": "go to company"
+        }
+    ]
+}
